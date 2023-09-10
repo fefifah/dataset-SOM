@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['blackspot', 'canker', 'greening', 'healthy', 'melanose']
+
+roboflow:
+  workspace: ai-p79wl
+  project: cirtus01
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-p79wl/cirtus01/dataset/2
